@@ -61,6 +61,8 @@ function App() {
           onClick={() => ref.current.scrollTo(0)}
         >
           <h2>Kesanku ke kamu?</h2>
+          <a href="https://fromheaven.vercel.app/" download>Klik Disini!</a>
+<br>
         </ParallaxLayer>
       </Parallax>
     </div>
