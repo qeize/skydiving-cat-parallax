@@ -1,8 +1,7 @@
 import { useRef } from 'react';
 import moon from './moon.png';
 import land from './land.png';
-import melody from './melody.gif
-';
+import cat from './cat.gif';
 
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
@@ -44,7 +43,7 @@ function App() {
           sticky={{ start: 0.9, end: 2.5 }}
           style={{ textAlign: 'center' }}
         >
-          <img src={melody} />
+          <img src={cat} />
         </ParallaxLayer>
 
         <ParallaxLayer
