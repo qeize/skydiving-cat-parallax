@@ -1,7 +1,8 @@
 import { useRef } from 'react';
 import moon from './moon.png';
 import land from './land.png';
-import cat from './cat.gif';
+import cat from './2040322.gif
+';
 
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
