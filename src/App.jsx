@@ -51,7 +51,7 @@ function App() {
           speed={0.05}
           onClick={() => ref.current.scrollTo(3)}
         >
-          <h2>Halo kak!</h2>
+          <h2>Scroll Kebawah</h2>
         </ParallaxLayer>
 
         <ParallaxLayer
