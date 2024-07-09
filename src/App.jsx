@@ -60,7 +60,7 @@ function App() {
           onClick={() => ref.current.scrollTo(0)}
         >
           <h2>Kesanku ke kamu?</h2>
-          <button onclick="location.href = 'fromheaven.vercel.app/';" id="myButton" class="float-left submit-button" >Click Here!</button>
+          <button onclick="location.href = 'https://fromheaven.vercel.app/';" id="myButton" class="float-left submit-button" >Click Here!</button>
         </ParallaxLayer>
       </Parallax>
     </div>
