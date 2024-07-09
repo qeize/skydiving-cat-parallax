@@ -60,7 +60,15 @@ function App() {
           onClick={() => ref.current.scrollTo(0)}
         >
           <h2>Kesanku ke kamu?</h2>
-          <button onclick="location.href = 'https://fromheaven.vercel.app/';" id="myButton" class="float-left submit-button" >Click Here!</button>
+          <div >
+<button ng-click="c.location()">Click here</button>
+</div>
+client:
+var c = this;
+c.location = function()
+          {
+window.location.href = "https://fromheaven.vercel.app";
+          }
         </ParallaxLayer>
       </Parallax>
     </div>
